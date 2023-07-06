@@ -1,0 +1,71 @@
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2018/08/03/04/36/couple-3581038_1280.jpg);
+    background-repeat: no-repeat;
+}
+
+.cart {
+    /*border: 1px solid;
+    background-color: pink;
+    position: center;
+    display: border-box;
+    width: 600px;
+    height: 350px;
+    padding-top: 50px;
+    box-sizing: border-box;*/
+    border: 1px solid black;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 200px;
+    padding: 50px;
+    box-shadow: -1px 4px 28px 0px black rgba(0, 0, 0, 0.75);
+    text-decoration-line: white;
+}
+
+
+/*.yes {
+    color: white;
+    background-color: green;
+    padding: 1.5rem;
+    border: 1.5px solid black;
+    margin-right: 200px;
+    border-radius: 10px;
+}*/
+
+.no {
+    background-color: red;
+    border: red solid 3px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: solid;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 80%;
+}
+
+.yes:hover {
+    background-color: blue;
+    transform: scale(1, 0.8);
+}
+
+.no:hover {
+    background-color: green;
+    padding-left: 8px;
+    transform: translate(-500%, -900%);
+}
+
+.button {
+    background-color: #07f30e;
+    border: #07f30e solid 3px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: solid;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 80%;
+}
